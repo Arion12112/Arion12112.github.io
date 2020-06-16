@@ -195,9 +195,9 @@ $('document').ready(function(){
 	});
 	
 	$('#play_video').click(function(){
-		$('.video').fadeIn('slow');
+		$('.iframe').fadeIn('slow');
 		$(this).fadeOut('slow').promise().done(function(){
-			var video = $('.video')[0];
+			var video = $('.iframe')[0];
 			video.play();
 		});
 	});
