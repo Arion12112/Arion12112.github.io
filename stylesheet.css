@@ -1260,7 +1260,7 @@ audio {
 	bottom: 0;
 	padding:10px 0px 10px 0px;
 }
-#play, #bannar_coming, #balloons_flying,#cake_fadein,#light_candle,#wish_message,#story, #play_video , #video1 {
+#play, #bannar_coming, #balloons_flying,#cake_fadein,#light_candle,#wish_message,#story,#play_video,#video1 {
 	display: none;
 }
 
@@ -1300,7 +1300,7 @@ audio {
         background-color: #466baf;
     }
 
-video {
+iframe {
     display: block;
     margin: 0 auto;
 }
